@@ -8,5 +8,8 @@
     color: #434455;
 }
 .effective-section {
-    color: #2E2F42;
+    background-color: #2E2F42;
 }
+.effect-title [
+    color: #FFFFFF;
+]
