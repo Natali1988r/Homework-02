@@ -1,15 +1,16 @@
-.logo {
+ .logo {
     color: ffffff;
-}
-.header-link {
+ }
+ .header-link {
     color: #2E2F42;
-}
-.address-link {
+ }
+ .address-link {
     color: #434455;
-}
-.effective-section {
+ }
+ .effective-section {
     background-color: #2E2F42;
-}
-.effect-title [
+ }
+ .effect-title {
     color: #FFFFFF;
-]
+ }
+ 
