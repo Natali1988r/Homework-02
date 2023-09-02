@@ -1,0 +1,104 @@
+  :root {
+   background-color: Ffffff;
+   font-family: Roboto,sans-serif ;
+  }
+ .logo {
+    color: ffffff;
+ }
+ .header-link {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.32px;
+ }
+  .header-link:active {
+   color: #404BBF;
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1,5;
+   letter-spacing: 0.32px;
+  }
+ .address-link {
+   color: #434455;
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1,5;
+   letter-spacing: 0.32px;
+ }
+ .address-link:active {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5; 
+    letter-spacing: 0.32px;
+    
+ }
+ .effective-section {
+    background-color: #2E2F42;
+ }
+ .effect-title {
+    color: #FFFFFF;
+ }
+ .button {
+    background: #4D5AE5;
+   box-shadow: 0px 4px 4px 0px rgba 0, 0, 0, 0.15;
+ }
+ .button:hover {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px 0px rgba 0, 0, 0, 0.15;
+    cursor: pointer;
+ }
+  .section-2 {
+   background-color: ffffff;
+   width: 1440px;
+   height: 732px;
+   flex-shrink: 0;
+  }
+ .title {
+  color: #2E2F42;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1,1; 
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+ }
+ .list {
+   color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1,5;
+ }
+ .light-bt {
+  background: #F4F4FD;
+  width: 1440px;
+  height: 732px;
+  top: 1016px
+ }
+ .card {
+   color: #2E2F42;
+   font-family: Roboto;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1,1;
+ }
+ .name {
+   color: #2E2F42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1,2;
+ }
+ .prof {
+   color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1,5;
+ }
