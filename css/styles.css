@@ -65,7 +65,7 @@
     color: var(--color-primary);
     font-weight: 500;
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
  }
@@ -78,6 +78,9 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+ }
+ .button-primary:hover {
+   background-color: #404BBF;
  }
  .button-primary:focus {
     background-color: #404BBF;  
@@ -103,7 +106,7 @@
  .card {
    color: var(--color-brand);
    font-family: Roboto;
-   font-size: 36px;
+   font-size: 20px;
    font-weight: 500;
    line-height: 1.2;
  }
