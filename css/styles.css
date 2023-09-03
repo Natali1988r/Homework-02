@@ -124,9 +124,11 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
  }
  .prof {
    color: #434455;
+   background-color: #FFFFFF;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
@@ -138,7 +140,7 @@
   font-family: Roboto;
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -146,8 +148,9 @@
  .card-content {
    color: var(--color-brand);
   font-family: Roboto;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: left;
   letter-spacing: 0.02em;
   text-align: center;
