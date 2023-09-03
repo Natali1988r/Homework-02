@@ -29,26 +29,32 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
  }
-.nav-link:hover, .nav-link:focus {
-    color: var(--color-brand);
-    font-family: Raleway, sans-serif;
-    font-weight: 500;
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.nav-link {
+   color: #2E2F42;
+   font-weight: 500;
+   line-height: 1.5; 
+   letter-spacing: 0.02em;
  }
+ .nav-link:hover, .nav-link:focus {
+   color: #404bbf;
+   text-decoration: underline;
+   }
+
   .header-link:hover {
    color: #404bbf;
    font-family: Roboto;
    font-size: 16px;
   }
- .address-link:hover, .address-link:focus {
+ .address-link {
    color: #434455;
    font-family: Roboto;
    font-style: normal;    
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+ }
+ .address-link:hover,.address-link:focus {
+   color: #404bbf ;
  }
  
  .effective-section {
