@@ -140,6 +140,14 @@
   font-weight: 500;
   line-height: 1,2;
   text-align: left;
-
-
  }
+ .card-text {
+   color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+  text-align: left;
+ }
+ 
