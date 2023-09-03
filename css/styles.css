@@ -95,12 +95,15 @@
   font-weight: 500;
   letter-spacing: 0.72px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
  }
  .text {
    color: #434455;
   font-family: Roboto;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
  }
  .light-bt {
   background: var(--color-primaty-light);
@@ -108,9 +111,12 @@
  .card {
    color: var(--color-brand);
    font-family: Roboto;
-   font-size: 20px;
+   font-size: 36px;
    font-weight: 500;
-   line-height: 1.2;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
  }
  .name {
    color: var(--color-brand);
@@ -140,10 +146,11 @@
  .card-content {
    color: var(--color-brand);
   font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: left;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
  }
  .card-text {
