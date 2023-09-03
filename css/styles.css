@@ -1,8 +1,11 @@
   :root {
-   color: #434455;
-   background-color: ffffff;
-   font-family: Roboto,sans-serif ;
+   --color-brand: #2E2F42;
+   --color-primary: #FFFFFF;
+   --color-primaty-light: #F4F4FD;
+
+
   }
+  
   body {
    font-family: 'Roboto', sans-serif;
 
@@ -17,6 +20,7 @@
  }
  span {
     color: #2E2F42;
+    ;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -24,7 +28,7 @@
     text-transform: uppercase;
  }
 .nav-link {
-    color: #2E2F42;
+    color: var(--color-brand);
     font-family: Raleway, sans-serif;
     font-size: 16px;
     letter-spacing: 0.03em;
@@ -46,24 +50,24 @@
     font-size: 16px;  
  }
  .effective-section {
-    background-color: #2E2F42;
+    background-color: var(--color-brand);
  }
  .effect-title {
-    color: #FFFFFF;
+    color: var(--color-primary);
  }
  .button-primary {
     background: #4D5AE5;
-    color: #FFFFFF;
+    color: var(--color-primary);
  }
  .button-primary:hover {
     background: #404BBF;
     cursor: pointer;
  }
   .section-2 {
-   background-color: ffffff;
+   background-color: var(--color-primary);
   }
  .title {
-  color: #2E2F42;
+  color: var(--color-brand);
   font-family: Roboto;
   font-size: 36px;
   letter-spacing: 0.72px;
@@ -75,17 +79,17 @@
   font-size: 16px;
  }
  .light-bt {
-  background: #F4F4FD;
+  background: var(--color-primaty-light);
   width: 1440px;
   height: 732px;
  }
  .card {
-   color: #2E2F42;
+   color: var(--color-brand);
    font-family: Roboto;
    font-size: 36px;
  }
  .name {
-   color: #2E2F42;
+   color: var(--color-brand);
   font-family: Roboto;
   font-size: 20px;
  }
@@ -95,13 +99,13 @@
   font-size: 16px;
  }
  .portfolio {
-   color: #2E2F42;
+   color: var(--color-brand);
   font-family: Roboto;
   font-size: 36px;
   letter-spacing: 0.02em;
  }
  .card-content {
-   color: #2E2F42;
+   color: var(--color-brand);
   font-family: Roboto;
   font-size: 20px;
   text-align: left;
@@ -114,7 +118,7 @@
   text-align: left;
  }
  .footer-section {
-   background-color: #2E2F42;
+   background-color: var(--color-brand);
 
  }
 .logo-2 {
@@ -125,8 +129,8 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.logo2-text {
-   color: #F4F4FD;
+.footer-text {
+   color: var(--color-primaty-light);
    font-family: Roboto;
 font-size: 16px;
 letter-spacing: 0.02em;
@@ -136,6 +140,6 @@ font-size: 16px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-.accent {
-   color: #F4F4FD;
+.logo-footer-accent {
+   color: var(--color-primaty-light);
 }
