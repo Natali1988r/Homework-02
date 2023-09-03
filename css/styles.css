@@ -107,6 +107,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
  }
+        /* section-3 */
  .light-bt {
   background: var(--color-primaty-light);
  }
@@ -140,7 +141,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
  }
-
+       /* section-4 */
  .portfolio {
    color: var(--color-brand);
    background-color: #ffffff;
