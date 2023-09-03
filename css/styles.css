@@ -2,8 +2,6 @@
    --color-brand: #2E2F42;
    --color-primary: #FFFFFF;
    --color-primaty-light: #F4F4FD;
-
-
   }
   
   body {
@@ -31,7 +29,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
  }
-.nav-link {
+.nav-link:hover, .nav-link:focus {
     color: var(--color-brand);
     font-family: Raleway, sans-serif;
     font-weight: 500;
@@ -44,7 +42,7 @@
    font-family: Roboto;
    font-size: 16px;
   }
- .address-link {
+ .address-link:hover, .address-link:focus {
    color: #434455;
    font-family: Roboto;
    font-style: normal;    
@@ -52,12 +50,7 @@
    line-height: 1.5;
    letter-spacing: 0.02em;
  }
- .address-link:focus {
-    color: #404BBF;
-    font-family: Roboto;
-    font-size: 16px;  
-    font-style: normal;
- }
+ 
  .effective-section {
     background-color: var(--color-brand);
  }
