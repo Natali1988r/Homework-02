@@ -80,8 +80,6 @@
  }
  .light-bt {
   background: var(--color-primaty-light);
-  width: 1440px;
-  height: 732px;
  }
  .card {
    color: var(--color-brand);
